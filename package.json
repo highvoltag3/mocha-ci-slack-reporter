@@ -1,6 +1,6 @@
 {
   "name": "@zaplabs/mocha-slacker",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Slack reporter for Mocha when running in CI environments",
   "main": "lib/index.js",
   "scripts": {
