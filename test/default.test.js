@@ -62,25 +62,25 @@ test.onePassTwoFail = function *() {
             'attachments': [
               {
                 'attachment_type': '',
-                'fallback': 'Failed: #internal-mocha-ci-slack-reporter > nooo1\nError: failed 123!',
+                'fallback': 'Failed: #internal-mocha-slacker > nooo1\nError: failed 123!',
                 'fields': [
                   {
                     'short': false,
                     'title': 'Error: failed 123!'
                   }
                 ],
-                'text': 'Failed: #internal-mocha-ci-slack-reporter > nooo1'
+                'text': 'Failed: #internal-mocha-slacker > nooo1'
               },
               {
                 'attachment_type': '',
-                'fallback': 'Failed: #internal-mocha-ci-slack-reporter > nooo2\nError: failed 456!',
+                'fallback': 'Failed: #internal-mocha-slacker > nooo2\nError: failed 456!',
                 'fields': [
                   {
                     'short': false,
                     'title': 'Error: failed 456!'
                   }
                 ],
-                'text': 'Failed: #internal-mocha-ci-slack-reporter > nooo2'
+                'text': 'Failed: #internal-mocha-slacker > nooo2'
               }
             ],
             'username': 'test-reporter',
@@ -157,14 +157,14 @@ test.customOptions = {
               'attachments': [
                 {
                   'attachment_type': '',
-                  'fallback': 'Failed: #internal-mocha-ci-slack-reporter > nooo1\nError: fail 987',
+                  'fallback': 'Failed: #internal-mocha-slacker > nooo1\nError: fail 987',
                   'fields': [
                     {
                       'short': false,
                       'title': 'Error: fail 987'
                     }
                   ],
-                  'text': 'Failed: #internal-mocha-ci-slack-reporter > nooo1'
+                  'text': 'Failed: #internal-mocha-slacker > nooo1'
                 }
               ],
               'username': 'reporter0',
