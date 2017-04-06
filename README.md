@@ -1,8 +1,4 @@
-# mocha-ci-slack-reporter
-
-[![Build Status](https://secure.travis-ci.org/hiddentao/mocha-ci-slack-reporter.png)](http://travis-ci.org/hiddentao/mocha-ci-slack-reporter)
-[![NPM module](https://badge.fury.io/js/mocha-ci-slack-reporter.png)](https://badge.fury.io/js/mocha-ci-slack-reporter)
-[![Follow on Twitter](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&label=Follow&maxAge=2592000)](https://twitter.com/hiddentao)
+# mocha-slacker
 
 
 Slack reporter for Mocha when running in CI environments.
@@ -14,14 +10,10 @@ standard test pass/failed information.
 It posts a single pretty notification to your Slack channel with a summary of
 the test failures and/or successful run.
 
-What it looks like:
-
-![Slack screenshot](screenshot.png)
-
 ## Installation
 
 ```shell
-$ npm install mocha-ci-slack-reporter
+$ npm install @zaplabs/mocha-ci-slack-reporter
 ```
 
 ## Usage
@@ -57,7 +49,3 @@ var mocha = new Mocha({
   }
 });
 ```
-
-## License
-
-MIT - see [LICENSE.md](LICENSE.md)

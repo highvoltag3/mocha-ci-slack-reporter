@@ -1,5 +1,5 @@
 import request from 'sync-request'
-const debug = require('debug')('mocha-ci-slack-reporter')
+const debug = require('debug')('mocha-slacker')
 import { reporters } from 'mocha'
 const { Base } = reporters
 

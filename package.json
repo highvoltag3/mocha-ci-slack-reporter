@@ -1,6 +1,6 @@
 {
-  "name": "mocha-ci-slack-reporter",
-  "version": "1.0.1",
+  "name": "@zaplabs/mocha-slacker",
+  "version": "1.0.0",
   "description": "Slack reporter for Mocha when running in CI environments",
   "main": "lib/index.js",
   "scripts": {
@@ -10,24 +10,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hiddentao/mocha-ci-slack-reporter.git"
+    "url": "git+http://dnovoa@stash.aur.ziprealty.com:7990/scm/zap-tests/test.git"
   },
   "keywords": [
     "test",
     "mocha",
     "reporter",
     "ci",
-    "circleci",
-    "travis",
     "slack",
     "notification"
   ],
-  "author": "Ramesh Nair <ram@hiddentao.com>",
+  "author": "Dario Novoa, Based on Ramesh Nair mocha-ci-slack-reporter",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/hiddentao/mocha-ci-slack-reporter/issues"
-  },
-  "homepage": "https://github.com/hiddentao/mocha-ci-slack-reporter#readme",
   "devDependencies": {
     "babel-cli": "^6.18.0",
     "babel-core": "^6.21.0",
@@ -46,7 +40,11 @@
     "mockery": "^2.0.0"
   },
   "dependencies": {
+    "botkit": "^0.5.2",
     "debug": "^2.3.3",
     "sync-request": "^3.0.1"
+  },
+  "directories": {
+    "test": "test"
   }
 }
