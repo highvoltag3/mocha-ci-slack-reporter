@@ -13,7 +13,7 @@ the test failures and/or successful run.
 ## Installation
 
 ```shell
-$ npm install @zaplabs/mocha-ci-slack-reporter
+$ npm install @zaplabs/mocha-slacker
 ```
 
 ## Usage
@@ -32,14 +32,14 @@ All options:
 ### via Command-line
 
 ```shell
-$ mocha test --reporter mocha-ci-slack-reporter  --reporter-options username=name,channel=#channel_name,...
+$ mocha test --reporter mocha-slacker  --reporter-options username=name,channel=#channel_name,...
 ```
 
 ### via API
 
 ```javascript
 var mocha = new Mocha({
-  reporter: 'mocha-ci-slack-reporter',
+  reporter: 'mocha-slacker',
   reporterOptions: {
     testTitle: 'My tests',
     url: 'https://hooks.slack.com/...',

@@ -38,7 +38,7 @@ export const create = (_module, options = {}) => {
         const mocha = new Mocha({
           reporter: require('../')
         })
-        const suite = new Suite('#internal-mocha-ci-slack-reporter', 'root')
+        const suite = new Suite('#internal-mocha-slacker', 'root')
         const runner = new Runner(suite)
 
         return {
